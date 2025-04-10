@@ -349,7 +349,7 @@ static void StateStandby_Run(void)
 	DEBOUNCE_CNT++;
 #endif
 
-//	StateTransition(&exppackCtrlTask.stateMachine, TASK_STATE_ENABLE);
+	// StateTransition(&exppackCtrlTask.stateMachine, TASK_STATE_ENABLE);
 }
 
 static void StateEnable_Ent(void)
